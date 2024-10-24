@@ -37,7 +37,6 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 250
 
 -- Decrease mapped sequence wait time
--- Displays which-key popup sooner
 vim.opt.timeoutlen = 300
 
 -- Configure how new splits should be opened
@@ -79,4 +78,4 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
-require("config.lazy")
+require("plugin-manager")
